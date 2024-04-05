@@ -1,0 +1,71 @@
+
+3.Hàm cube() chạy:
+1000 lần
+
+4.
+Giá trị a = 17
+hàm negate() không ảnh hưởng gì đến a được khai báo trong hàm main
+
+6.
+Lời gọi hàm f(1, 2); sẽ in ra "f(int, double)".
+
+7.Tác dụng của lệnh return là gì?
+D. Cả A và B
+
+8.Có thể truyền vào bao nhiêu đối số trong một hàm?
+A. Bao nhiêu cũng được.
+
+9.Khai báo prototype nào sau đây là không hợp lệ?
+D. char x();
+
+10.Kiểu trả về của hàm với prototype: "int func(char x, float v, double t);" là:
+B. int
+
+11.Lời gọi hàm nào sau đây là hợp lệ (giả sử hàm đấy tồn tại)?
+C. funct();
+
+12.Đâu là định nghĩa một hàm hoàn chỉnh?
+B. int funct(int x) {return x=x+1;}
+
+13.
+D. Chương trình biên dịch thành công và kết quả khi chạy là : Hello
+
+14.
+C. Chương trình biên dịch thành công nhưng gặp lỗi khi chạy vì 2 biến s, k không giống nhau
+
+15.
+B.4 
+
+16.Hàm inline được định nghĩa trong
+D. Cả B và C
+
+17.Nếu một hàm được viết để sử dụng trong một chương trình sẵn có thì nó có thể được đưa vào thư viện hàm để các chương trình khác có thể sử dụng được
+A. Đúng
+
+18.Số tham số và thứ tự các tham số thật phải đúng như các tham số hình thức trong khai báo hàm
+A. Đúng
+
+19.Không cần chỉ định kiểu trả về của hàm khi hàm đó trả về kiểu dữ liệu nào sau đây:
+B. void
+
+20.Định nghĩa hàm nào sau đây không hợp lệ
+C. foo(void){}
+
+21.Khi gọi hàm, các tham số được truyền vào phải giống các tham số hình thức ở
+C. Tên 
+D. Giá trị
+
+22.Nếu một hàm được gọi trước khi nó được định nghĩa thì điều kiện là gì?
+C. Trước khi gọi hàm nó phải được khai báo
+
+23.Hàm main() là một ví dụ về
+D. Hàm thư viện (pre-defined)
+
+24.Một hàm không trả về giá trị thì không thể có mặt trong biểu thức
+A. Đúng
+
+25.Phát biểu nào sau đây là không đúng?
+C. Hàm có thể được gọi trước khi nó được định nghĩa
+
+26.Phát biểu nào sau đây về hàm main() là đúng
+ D. Là hàm có thể gọi bình thường như các hàm người dùng định nghĩa khác.
