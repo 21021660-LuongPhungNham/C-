@@ -1,0 +1,23 @@
+1.
+*p3 = "B", p3 = 0x5678
+*p3 = "A", p3 = 0x1234
+*p1 = "B", p1 = 0x5678
+
+2.
+*p = 5; sẽ gán giá trị 5 cho i.
+
+Giải thích:
+
+k = 5;: Gán giá trị 5 cho biến k, i không ảnh hưởng đến 
+*k = 5;: Gán giá trị 5 cho địa chỉ mà k trỏ đến (tức là i), thay đổi giá trị của i thành 5.
+p = &i;: Gán địa chỉ của i cho p, không thay đổi giá trị của i.
+*p = 5;: Gán giá trị 5 cho địa chỉ mà p trỏ đến (tức là i), thay đổi giá trị của i thành 5.
+
+3.
+Lỗi xảy ra do gán con trỏ double cho biến char
+
+Giải thích:
+
+- Biến c có kiểu char, chỉ có thể lưu trữ giá trị 1 byte
+- Con trỏ double có kiểu double, cần 8 byte để lưu trữ giá trị.
+- Gán địa chỉ của biến char (c) cho con trỏ double (p) là sai vì p không đủ dung lượng để lưu trữ giá trị của c
