@@ -1,0 +1,12 @@
++) int* p2 = p; // Lỗi gán con trỏ p cho con trỏ p2
+
+(Khi thực hiện gán int* p2 = p, con trỏ p2 giờ đây 
+cũng trỏ vào vùng nhớ mà p trỏ đến. Khi sau đó ta giải phóng 
+vùng nhớ mà p đang trỏ (delete p;), con trỏ p2 vẫn còn trỏ vào
+ vùng nhớ đã bị giải phóng này)
+ 
++) *p2 = 100; // Lỗi ghi vào vùng nhớ đã bị giải phóng
+
+(Lí do: Khi ta giải phóng vùng nhớ mà p trỏ đến (delete p;),
+ con trỏ p2 vẫn còn trỏ vào đó. Việc ghi vào vùng nhớ này 
+ sau khi đã giải phóng gây ra lỗi không xác định.)
